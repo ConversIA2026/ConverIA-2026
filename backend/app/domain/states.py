@@ -3,6 +3,7 @@
 
 from enum import Enum
 
+# Estados explícitos para conversaciones y usuarios
 class ConversationState(str, Enum):
     OPEN = "open"
     CLOSED = "closed"
